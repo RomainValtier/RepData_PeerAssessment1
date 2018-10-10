@@ -76,7 +76,7 @@ hist(steps_by_day$total,
      xlab = "Number of steps in a day")
 ```
 
-<img src="PA1_template_files/figure-html/total-number-of-steps-taken-each-day-1.png" width="672" />
+<img src="figure/total-number-of-steps-taken-each-day-1.png" width="672" />
 
 What is the **mean** of the total number of steps taken per day?
 
@@ -114,7 +114,7 @@ plot(x = steps_by_interval$interval,
      ylab = "Average number of steps")
 ```
 
-<img src="PA1_template_files/figure-html/average-number-of-steps-taken-across-all-days-1.png" width="672" />
+<img src="figure/average-number-of-steps-taken-across-all-days-1.png" width="672" />
 
 Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -180,7 +180,7 @@ hist(steps_by_day.i$total,
      xlab = "Number of steps in a day")
 ```
 
-<img src="PA1_template_files/figure-html/total-number-of-steps-taken-each-day-imputing-missing-values-1.png" width="672" />
+<img src="figure/total-number-of-steps-taken-each-day-imputing-missing-values-1.png" width="672" />
 
 What is the **mean** of the total number of steps taken per day?
 
@@ -241,6 +241,6 @@ xyplot(steps_by_interval.i$mean.steps ~ steps_by_interval.i$interval | steps_by_
        layout=c(1,2))
 ```
 
-<img src="PA1_template_files/figure-html/average-number-of-steps-taken-across-all-weekday-days-or-weekend-days-1.png" width="672" />
+<img src="figure/average-number-of-steps-taken-across-all-weekday-days-or-weekend-days-1.png" width="672" />
 
 There is a difference and we can notice more activty over the weekend compare to weekdays.
